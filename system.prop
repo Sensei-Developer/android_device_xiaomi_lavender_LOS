@@ -30,3 +30,7 @@ persist.dirac.acs.storeSettings=1
 
 #Display 
 renderthread.skia.reduceopstasksplitting=true
+
+#Whitelisting the below packages
+persist.vendor.camera.privapp.list=com.google.android.apps.cameralite
+persist.camera.privapp.list=com.google.android.apps.cameralite
