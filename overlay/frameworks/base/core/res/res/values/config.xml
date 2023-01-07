@@ -469,4 +469,9 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track the default color temperature value (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+    <!-- Enables or disables fading edges when marquee is enabled in TextView.
+         Off by default, since the framebuffer readback used to implement the
+         fading edges is prohibitively expensive on most GPUs. -->
+    <bool name="config_ui_enableFadingMarquee">true</bool>
 </resources>
