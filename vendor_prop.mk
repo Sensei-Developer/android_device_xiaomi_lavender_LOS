@@ -246,6 +246,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.avoid_gfx_accel=true
 
+# Phantom process monitoring
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Configure dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=8 \
