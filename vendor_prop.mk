@@ -250,6 +250,10 @@ ro.config.avoid_gfx_accel=true
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# Transaction tracing
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.sf.enable_transaction_tracing=false
+
 # Configure dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=8 \
