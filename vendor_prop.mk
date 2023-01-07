@@ -242,6 +242,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.control_privapp_permissions=log
 
+# Enable avoidGfxAccel
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.avoid_gfx_accel=true
+
 # Configure dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=8 \
