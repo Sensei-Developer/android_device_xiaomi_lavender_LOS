@@ -256,6 +256,13 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.sf.enable_transaction_tracing=false
 
+# App launch prefetching (IORapd)
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.iorapd.enable=false \
+iorapd.perfetto.enable=false \
+iorapd.readahead.enable=false \
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Configure dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=8 \
