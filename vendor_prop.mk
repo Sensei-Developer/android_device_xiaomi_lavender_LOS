@@ -123,7 +123,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.latch_unsignaled=0 \
     debug.hwui.renderer=skiagl \
     debug.sf.predict_hwc_composition_strategy=0 \
     ro.opengles.version=196610 \
