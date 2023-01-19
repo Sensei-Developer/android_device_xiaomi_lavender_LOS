@@ -1,3 +1,6 @@
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
+
 # Biometric
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.lavender   u:object_r:hal_fingerprint_lavender_exec:s0
 /(vendor|system/vendor)/bin/init\.goodix\.sh                                                       u:object_r:hal_fingerprint_lavender_exec:s0

@@ -258,6 +258,13 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.sf.enable_transaction_tracing=false
 
+# Dolby
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.audio_fx.current=dolby \
+ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1 \
+vendor.audio.dolby.ds2.enabled=true \
+vendor.audio.dolby.ds2.hardbypass=true
+
 # App launch prefetching (IORapd)
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.iorapd.enable=false \
