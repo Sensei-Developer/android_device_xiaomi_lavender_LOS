@@ -262,6 +262,13 @@ iorapd.perfetto.enable=false \
 iorapd.readahead.enable=false \
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
+# IMS
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.ims.disableADBLogs=1 \
+persist.vendor.ims.disableIMSLogs=1 \
+persist.vendor.ims.disableDebugLogs=1 \
+persist.vendor.ims.disableQXDMLogs=1
+
 # Configure dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=8 \
