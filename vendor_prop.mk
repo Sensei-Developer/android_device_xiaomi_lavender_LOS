@@ -132,6 +132,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=0 \
     debug.sdm.support_writeback=0 \
     vendor.display.idle_time=32767 \
+    vendor.display.use_smooth_motion=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
