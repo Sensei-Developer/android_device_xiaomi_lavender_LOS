@@ -283,6 +283,11 @@ persist.vendor.qti.inputopts.enable=true \
 persist.vendor.qti.inputopts.movetouchslop=0.6 \
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
+# HWUI
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.hwui.use_hint_manager=true \
+debug.hwui.target_cpu_time_percent=30
+
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.ims.disableADBLogs=1 \
