@@ -273,6 +273,16 @@ iorapd.perfetto.enable=false \
 iorapd.readahead.enable=false \
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
+# Fling
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+ro.min.fling_velocity=160 \
+ro.max.fling_velocity=20000 \
+ro.max.fling_velocity=20000 \
+ro.vendor.qti.cgroup_follow.enable=true \
+persist.vendor.qti.inputopts.enable=true \
+persist.vendor.qti.inputopts.movetouchslop=0.6 \
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.ims.disableADBLogs=1 \
